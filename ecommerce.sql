@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `ecommerce`
 --
-
+CREATE DATABASE IF NOT EXISTS ecommerce;
 -- --------------------------------------------------------
 
 --
@@ -98,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`name`, `surname`, `country`, `address`, `password`, `email`, `username`) VALUES
 ('Carmine', 'Benedetto', 'Italy', 'Via Campania, 3 56124 Pisa', 'nightfall', 'admin.skidz@skidz.io', 'nightfall'),
 ('John', 'Snow', 'Winterfell', 'Lord Stark''s Castle', 'winteriscoming', 'bastardsnow@realm.com', 'bastardsnow');
-
+('Vikki', 'Lostapolus', 'Romania', 'Bucharest', 'yRm44QNRVgvJtyO', 'vikki.lostapolus@skidz.io', 'vikki')
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
